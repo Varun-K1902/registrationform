@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css" />
     <title>Task</title>
   </head>
-  <style>
-    body{
+    <style>
+        body{
     background-color: rgb(231, 240, 212);
 }
 header{
@@ -61,7 +61,7 @@ td{
 }
 th{
     border:solid 2px;};
-  </style>
+    </style>
   <body>
     <header style="text-align: center">Welcome To My Site</header>
     <h1>Fill the Form</h1>
@@ -104,7 +104,7 @@ th{
     </div>
     <div id="entrytbale"></div>
     <script>
-        function validateAge(today, dobobj) {
+function validateAge(today, dobobj) {
   var age = today.getFullYear() - dobobj.getFullYear();
   var m = today.getMonth() - dobobj.getMonth();
   if (m < 0 || (m === 0 && today.getDate() < dobobj.getDate())) {
